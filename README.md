@@ -30,6 +30,7 @@
   * [Distributions](#distributions)
   * [GUI](#gui)
   * [Configuration](#configuration)
+  * [Other](#other-tools)
 * [Custom Plugins](#custom-plugins)
   * [Auth Plugins](#auth-plugins)
 * [Resources](#resources)
@@ -65,6 +66,12 @@
 - [Kongfig](https://github.com/mybuilder/kongfig) - Declarative configuration for Kong
 - [Ansible Kong](https://github.com/wunzeco/ansible-kong) - Installs and Configures Kong with Ansible
 
+### Other tools
+
+- quickly [create custom Kong docker images](https://github.com/Kong/docker-kong/tree/master/customize)
+  with injected custom plugins and configuration templates
+- [customize plugin priorities](https://github.com/Kong/priority-updater) to change the order in which
+  plugins run or to run the same plugin multiple times.
 
 ## Custom Plugins
 
